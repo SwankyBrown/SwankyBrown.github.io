@@ -46,6 +46,11 @@ body {
   .project .image {
     max-width: 100%;
     height: auto;
+    filter: blur(2px);
+    transition: filter .2s ease;
+  }
+  .project .image:hover {
+    filter: blur(0px)
   }
   
   .project .description {
